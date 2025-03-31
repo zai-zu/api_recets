@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>API Recipes Vegan</title>
+  </head>
+  <body>
+    
+    <section class="intro">
+      <div>
+        <h1 class="welcome">🌿Welcome to the Vegan Food Site🌿</h1>
+        <h2 class="slogan">
+          With just one click you can find an easy and simple cruelty-free recipe for any occasion
+        </h2>
+      </div>
+    </section>
+
+    
+    <div class="options">
+      <section>
+        <label for="title">What are you in the mood for?</label>
+        <input
+          type="text"
+          placeholder="pretzels, kimchi, lasagne, cake, risotto, tart, taco..."
+          id="input_title"
+        />
+        
+        <button type="button" id="searchRecipe">Search Recipe</button>
+      </section>
+
+      
+      <section class="surprise-recipe">
+        <div>
+          <p class="instruction">✨Hit the button for a surprise recipe!✨</p>
+          <button type="button" id="randomRecipe">Random Recipe</button>
+        </div>
+      </section>
+    </div>
+
+    
+    <div id="app" class="resultRecipe"></div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

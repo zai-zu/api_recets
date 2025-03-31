@@ -1,0 +1,138 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Intro Section */
+  .intro {
+    padding: 5%;
+    background-color: #c2bd14;
+    color: #fff;
+  }
+  
+  /* Welcome & Slogan */
+  .welcome {
+    font-size: 2.5em;
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin-bottom: 1em;
+  }
+  
+  .slogan {
+    font-size: 1.2em;
+    word-spacing: 1px;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  
+  /* Input field and focus */
+  #input_title {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #c2bd14;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #input_title:focus {
+    border-color: rgb(79, 199, 79);
+    border-width: 3px;
+    outline: none;
+    opacity: 0.9;
+  }
+  
+  /* Options container */
+  .options {
+    border: 2px solid #c2bd14;
+    padding: 2em;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .options section {
+    margin-bottom: 1.5em;
+  }
+  
+  /* Botón base */
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5em;
+    border-radius: 4px;
+  }
+  
+  /* Botón de búsqueda (Search Recipe) */
+  #searchRecipe {
+    background-color: #c2bd14;
+    color: #fff;
+    border: none;
+  }
+  
+  #searchRecipe:hover {
+    background-color: #a0a006;
+  }
+  
+  /* Botón de receta aleatoria (Random Recipe) */
+  #randomRecipe {
+    background-color: #fff;
+    color: #c2bd14;
+    border: 2px solid #c2bd14;
+  }
+  
+  #randomRecipe:hover {
+    background-color: #c2bd14;
+    color: #fff;
+  }
+  
+  /* Sección de receta sorpresa */
+  .surprise-recipe {
+    padding: 1em;
+  }
+  
+  /* Texto de instrucción */
+  .instruction {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Contenedor para mostrar la receta */
+  .resultRecipe {
+    margin: 2em auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 1em;
+    background-color: #fff;
+    border: 2px solid #c2bd14;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .welcome {
+      font-size: 2em;
+    }
+    .slogan {
+      font-size: 1em;
+    }
+    .options {
+      width: 95%;
+      padding: 1.5em;
+    }
+    button {
+      width: 90%;
+      box-sizing: border-box;
+    }
+  }
+  
