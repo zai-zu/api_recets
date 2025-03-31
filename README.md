@@ -21,11 +21,8 @@ Welcome to the Vegan Recipes API project! This is a web application that provide
 ### Prerequisites
 
 Make sure you have `node.js` and `npm` installed on your machine. You can download and install them from [Node.js official site](https://nodejs.org/).
+In the root of the project, create a .env file to store your API keys. Example:
+VITE_API_KEY=your_api_key_here
+VITE_BASE_URL=https://the-vegan-recipes-db.p.rapidapi.com/
 
-### Steps to Run the Project
 
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/zai-zu/api_recets.git
-   cd api_recets
